@@ -1,7 +1,6 @@
 simple Node {
     parameters:
         @display("i=block/routing");
-        int num_msgs = 10;
         string name;
     gates:
         input in;
@@ -11,7 +10,6 @@ simple Node {
 simple initNode {
   parameters:
       @display("i=block/routing");
-      int num_msgs = 10;
       string name;
   gates:
       // input in;
@@ -21,7 +19,6 @@ simple initNode {
 simple endNode {
     parameters:
         @display("i=block/routing");
-        int num_msgs = 10;
         string name;
     gates:
         input in;
