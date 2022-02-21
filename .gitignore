@@ -22,6 +22,7 @@
 *.pyc
 *.out
 *.aux
+*.cproject
 .ccls-cache
 .clangd
 .vscode/ipch
@@ -163,3 +164,4 @@ backups
 /doc/src/manual/usman.idx
 /doc/src/manual/usman.ilg
 /doc/src/manual/usman.log
+.vscode/settings.json
