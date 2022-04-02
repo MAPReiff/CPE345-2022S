@@ -1,0 +1,94 @@
+version 2
+run General-0-20220402-12:56:08-18361
+attr configname General
+attr datetime 20220402-12:56:08
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network MM1_S22
+attr processid 18361
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.source.interArrivalTime exponential(1.0s)
+param **.queue.serviceTime exponential(0.2s)
+param **.source.numJobs 10000
+
+scalar MM1_S22.source created:last 10000
+attr interpolationmode none
+attr title "the number of jobs created, last"
+scalar MM1_S22.queue busy:timeavg 0.19755898973258
+attr interpolationmode sample-hold
+attr title "server busy state, timeavg"
+scalar MM1_S22.queue queueingTime:mean 0.048222538251907
+attr interpolationmode none
+attr title "queueing time at dequeue, mean"
+attr unit s
+scalar MM1_S22.queue queueingTime:max 1.695963192798
+attr interpolationmode none
+attr title "queueing time at dequeue, max"
+attr unit s
+scalar MM1_S22.queue queueLength:timeavg 0.04820594580038
+attr interpolationmode sample-hold
+attr title "queue length, timeavg"
+scalar MM1_S22.queue queueLength:max 5
+attr interpolationmode sample-hold
+attr title "queue length, max"
+scalar MM1_S22.queue dropped:count 0
+attr interpolationmode none
+attr title "drop event, count"
+scalar MM1_S22.sink generation:mean 0
+attr interpolationmode none
+attr title "the generation of the arrived jobs, mean"
+scalar MM1_S22.sink generation:max 0
+attr interpolationmode none
+attr title "the generation of the arrived jobs, max"
+scalar MM1_S22.sink delaysVisited:mean 0
+attr interpolationmode none
+attr title "the total number of delays visited by arrived jobs, mean"
+scalar MM1_S22.sink delaysVisited:max 0
+attr interpolationmode none
+attr title "the total number of delays visited by arrived jobs, max"
+scalar MM1_S22.sink queuesVisited:mean 0.1966
+attr interpolationmode none
+attr title "the total number of queues visited by arrived jobs, mean"
+scalar MM1_S22.sink queuesVisited:max 1
+attr interpolationmode none
+attr title "the total number of queues visited by arrived jobs, max"
+scalar MM1_S22.sink totalServiceTime:mean 0.19762698939333
+attr interpolationmode none
+attr title "the total time spent  by arrived jobs, mean"
+attr unit s
+scalar MM1_S22.sink totalServiceTime:max 2.144464995922
+attr interpolationmode none
+attr title "the total time spent  by arrived jobs, max"
+attr unit s
+scalar MM1_S22.sink totalDelayTime:mean 0
+attr interpolationmode none
+attr title "the total time spent in delay nodes by arrived jobs, mean"
+attr unit s
+scalar MM1_S22.sink totalDelayTime:max 0
+attr interpolationmode none
+attr title "the total time spent in delay nodes by arrived jobs, max"
+attr unit s
+scalar MM1_S22.sink totalQueueingTime:mean 0.048222538251907
+attr interpolationmode none
+attr title "the total time spent in queues by arrived jobs, mean"
+attr unit s
+scalar MM1_S22.sink totalQueueingTime:max 1.695963192798
+attr interpolationmode none
+attr title "the total time spent in queues by arrived jobs, max"
+attr unit s
+scalar MM1_S22.sink lifeTime:mean 0.24584952764524
+attr interpolationmode none
+attr title "lifetime of arrived jobs, mean"
+attr unit s
+scalar MM1_S22.sink lifeTime:max 2.201729237378
+attr interpolationmode none
+attr title "lifetime of arrived jobs, max"
+attr unit s
+
