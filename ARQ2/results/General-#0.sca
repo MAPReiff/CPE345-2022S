@@ -1,0 +1,43 @@
+version 2
+run General-0-20220420-23:31:49-77875
+attr configname General
+attr datetime 20220420-23:31:49
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network ARQ2
+attr processid 77875
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+
+scalar ARQ2.destination "mean delay" 0.12075971731449
+scalar ARQ2.destination "max delay" 0.7
+scalar ARQ2.destination "std destination" 0.069415504597235
+scalar ARQ2.destination variance 0.0048185122784888
+statistic ARQ2.destination (unnamed)
+field count 2264
+field mean 0.12075971731449
+field stddev 0.069415504597235
+field min 0.1
+field max 0.7
+field sum 273.4
+field sqrsum 43.92
+bin	-inf	0
+bin	0.08	2056
+bin	0.14	0
+bin	0.2	0
+bin	0.26	185
+bin	0.32	0
+bin	0.38	0
+bin	0.44	0
+bin	0.5	19
+bin	0.56	0
+bin	0.62	0
+bin	0.68	4
+bin	0.74	0
+
