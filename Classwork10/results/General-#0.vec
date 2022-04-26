@@ -1,0 +1,33 @@
+version 2
+run General-0-20220419-20:25:42-72276
+attr configname General
+attr datetime 20220419-20:25:42
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsf ""
+attr measurement ""
+attr network My_PQs
+attr processid 72276
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+param **.source.interArrivalTime exponential(1.0s)
+param **.source1.interArrivalTime exponential(1.0s)
+param **.server.serviceTime exponential(0.45s)
+param **.source.numJobs 500000
+param **.source.jobType 0
+param **.source1.numJobs 500000
+param **.source1.jobType 1
+
+vector 0 My_PQs.passiveQueue queueLength:vector ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+vector 1 My_PQs.passiveQueue1 queueLength:vector ETV
+attr interpolationmode sample-hold
+attr title "queue length, vector"
+0	0	0	0
+1	0	0	0
+
